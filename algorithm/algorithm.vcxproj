@@ -156,6 +156,7 @@
   <ItemGroup>
     <ClInclude Include="lvl_sol_1.h" />
     <ClInclude Include="lvl_sol_2.h" />
+    <ClInclude Include="lvl_sol_3.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
