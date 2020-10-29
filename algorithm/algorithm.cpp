@@ -5,6 +5,7 @@
 #include "lvl_sol_1.h"
 #include "lvl_sol_2.h"
 #include "lvl_sol_3.h"
+#include "lvl_sol_4.h"
 int main()
 {
 	//for (auto number : sol_1::solution({ 1,2,3,4,5,6,7 }))
@@ -15,5 +16,9 @@ int main()
 
 	// sol 3
 	std::cout << sol_3::solution({ "mislav", "stanko", "mislav", "ana" }, { "stanko", "ana", "mislav" }) << std::endl;
+
+	// sol 4
+	//std::cout << sol_4::solution(5, { 2, 4 }, { 1, 3, 5 }) << std::endl;
+	std::cout << sol_4::solution(3, { 3 }, { 1}) << std::endl;
 }
 
