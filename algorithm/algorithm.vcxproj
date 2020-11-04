@@ -155,6 +155,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lvl_sol_1.h" />
+    <ClInclude Include="lvl_sol_10.h" />
     <ClInclude Include="lvl_sol_2.h" />
     <ClInclude Include="lvl_sol_3.h" />
     <ClInclude Include="lvl_sol_4.h" />
