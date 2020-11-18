@@ -75,5 +75,8 @@
     <ClInclude Include="lvl_sol_22.h">
       <Filter>Level 1</Filter>
     </ClInclude>
+    <ClInclude Include="lvl_sol_23.h">
+      <Filter>Level 1</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
