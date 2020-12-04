@@ -105,5 +105,8 @@
     <ClInclude Include="lvl_sol_32.h">
       <Filter>Level 1</Filter>
     </ClInclude>
+    <ClInclude Include="lvl_sol_33.h">
+      <Filter>Level 1</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

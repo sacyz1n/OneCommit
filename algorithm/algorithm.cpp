@@ -21,6 +21,7 @@
 #include "lvl_sol_24.h"
 #include "lvl_sol_25.h"
 #include "lvl_sol_32.h"
+#include "lvl_sol_33.h"
 int main()
 {
 	//for (auto number : sol_1::solution({ 1,2,3,4,5,6,7 }))
@@ -34,7 +35,7 @@ int main()
 
 	// sol 4
 	//std::cout << sol_4::solution(5, { 2, 4 }, { 1, 3, 5 }) << std::endl;
-	std::cout << sol_4::solution(3, { 3 }, { 1}) << std::endl;
+	std::cout << sol_4::solution(3, { 3 }, { 1 }) << std::endl;
 
 	// sol 5
 	std::cout << sol_5::solution(5, 24) << std::endl;
@@ -56,7 +57,7 @@ int main()
 
 	// sol 11
 	for (auto& str : sol_11::solution({ "abce", "abcd", "cdx" }, 2))
-	//for (auto& str : sol_11::solution({ "sun", "bed", "car" }, 1))
+		//for (auto& str : sol_11::solution({ "sun", "bed", "car" }, 1))
 		std::cout << str << std::endl;
 
 	// sol 15
@@ -77,5 +78,8 @@ int main()
 		std::cout << num;
 
 	std::cout << sol_32::solution({ 7, 0, 8, 2, 8, 3, 1, 5, 7, 6, 2 }, "left");
+
+	for (int num : sol_33::solution(3, 5))
+		std::cout << num;
 }
 
