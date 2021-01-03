@@ -185,6 +185,7 @@
     <ClInclude Include="lvl_sol_35.h" />
     <ClInclude Include="lvl_sol_36.h" />
     <ClInclude Include="lvl_sol_37.h" />
+    <ClInclude Include="lvl_sol_38.h" />
     <ClInclude Include="lvl_sol_4.h" />
     <ClInclude Include="lvl_sol_5.h" />
     <ClInclude Include="lvl_sol_6.h" />
