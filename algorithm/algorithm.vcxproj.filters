@@ -4,6 +4,9 @@
     <Filter Include="Level 1">
       <UniqueIdentifier>{477f744a-da67-4bde-b43f-0e6e89bd835c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Level 2">
+      <UniqueIdentifier>{56f5c320-501c-4043-962f-69f516f1e4ac}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="algorithm.cpp" />
@@ -122,6 +125,9 @@
     </ClInclude>
     <ClInclude Include="lvl_sol_38.h">
       <Filter>Level 1</Filter>
+    </ClInclude>
+    <ClInclude Include="lvl2_sol_1.h">
+      <Filter>Level 2</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
