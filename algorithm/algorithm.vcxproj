@@ -152,8 +152,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="algorithm.cpp" />
+    <ClCompile Include="CConsoleLogger.cpp" />
+    <ClCompile Include="ILogger.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CConsoleLogger.h" />
+    <ClInclude Include="ILogger.h" />
     <ClInclude Include="lvl2_sol_1.h" />
     <ClInclude Include="lvl_sol_1.h" />
     <ClInclude Include="lvl_sol_10.h" />

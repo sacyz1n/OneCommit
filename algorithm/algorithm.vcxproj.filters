@@ -7,9 +7,24 @@
     <Filter Include="Level 2">
       <UniqueIdentifier>{56f5c320-501c-4043-962f-69f516f1e4ac}</UniqueIdentifier>
     </Filter>
+    <Filter Include="study">
+      <UniqueIdentifier>{76564276-dad5-4881-9521-3e3a5c6fa717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="study\logger">
+      <UniqueIdentifier>{6b4ce171-0b48-4a0d-a32f-f3fd82e9f83e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="study\logger\ConsoleLogger">
+      <UniqueIdentifier>{025d5b71-427d-49fb-855d-ee9e30ca0821}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="algorithm.cpp" />
+    <ClCompile Include="ILogger.cpp">
+      <Filter>study\logger</Filter>
+    </ClCompile>
+    <ClCompile Include="CConsoleLogger.cpp">
+      <Filter>study\logger\ConsoleLogger</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lvl_sol_1.h">
@@ -128,6 +143,12 @@
     </ClInclude>
     <ClInclude Include="lvl2_sol_1.h">
       <Filter>Level 2</Filter>
+    </ClInclude>
+    <ClInclude Include="ILogger.h">
+      <Filter>study\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="CConsoleLogger.h">
+      <Filter>study\logger\ConsoleLogger</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
