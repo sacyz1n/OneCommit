@@ -150,5 +150,8 @@
     <ClInclude Include="CConsoleLogger.h">
       <Filter>study\logger\ConsoleLogger</Filter>
     </ClInclude>
+    <ClInclude Include="lvl_sol_39.h">
+      <Filter>Level 1</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
