@@ -16,6 +16,9 @@
     <Filter Include="study\logger\ConsoleLogger">
       <UniqueIdentifier>{025d5b71-427d-49fb-855d-ee9e30ca0821}</UniqueIdentifier>
     </Filter>
+    <Filter Include="study\genetic">
+      <UniqueIdentifier>{dec2ff96-c051-4120-8daf-c282ff636046}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="algorithm.cpp" />
@@ -24,6 +27,12 @@
     </ClCompile>
     <ClCompile Include="CConsoleLogger.cpp">
       <Filter>study\logger\ConsoleLogger</Filter>
+    </ClCompile>
+    <ClCompile Include="Genome.cpp">
+      <Filter>study\genetic</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneticAlgorithm.cpp">
+      <Filter>study\genetic</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -152,6 +161,15 @@
     </ClInclude>
     <ClInclude Include="lvl_sol_39.h">
       <Filter>Level 1</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneticAlgorithm.h">
+      <Filter>study\genetic</Filter>
+    </ClInclude>
+    <ClInclude Include="Genome.h">
+      <Filter>study\genetic</Filter>
+    </ClInclude>
+    <ClInclude Include="MapInfo.h">
+      <Filter>study\genetic</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

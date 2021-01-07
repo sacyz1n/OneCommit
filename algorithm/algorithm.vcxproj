@@ -153,10 +153,14 @@
   <ItemGroup>
     <ClCompile Include="algorithm.cpp" />
     <ClCompile Include="CConsoleLogger.cpp" />
+    <ClCompile Include="GeneticAlgorithm.cpp" />
+    <ClCompile Include="Genome.cpp" />
     <ClCompile Include="ILogger.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CConsoleLogger.h" />
+    <ClInclude Include="GeneticAlgorithm.h" />
+    <ClInclude Include="Genome.h" />
     <ClInclude Include="ILogger.h" />
     <ClInclude Include="lvl2_sol_1.h" />
     <ClInclude Include="lvl_sol_1.h" />
@@ -198,6 +202,7 @@
     <ClInclude Include="lvl_sol_7.h" />
     <ClInclude Include="lvl_sol_8.h" />
     <ClInclude Include="lvl_sol_9.h" />
+    <ClInclude Include="MapInfo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
