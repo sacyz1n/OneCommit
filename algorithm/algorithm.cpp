@@ -24,6 +24,7 @@
 #include "lvl_sol_33.h"
 #include "lvl_sol_34.h"
 #include "lvl_sol_35.h"
+#include "lvl_sol_40.h"
 
 #include "lvl2_sol_1.h"
 int main()
@@ -91,5 +92,8 @@ int main()
 	std::cout << sol_35::solution(12) << std::endl;
 
 	std::cout << lvl2_sol_1::solution("aabbaccc") << std::endl;
+
+	for (std::string& str : sol_40::solution(5, { 9, 20, 28, 18, 11 }, { 30, 1, 21, 17, 28 }))
+		std::cout << str << std::endl;
 }
 
