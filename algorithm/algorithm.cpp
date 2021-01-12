@@ -25,6 +25,7 @@
 #include "lvl_sol_34.h"
 #include "lvl_sol_35.h"
 #include "lvl_sol_40.h"
+#include "lvl_sol_41.h"
 
 #include "lvl2_sol_1.h"
 int main()
@@ -95,5 +96,9 @@ int main()
 
 	for (std::string& str : sol_40::solution(5, { 9, 20, 28, 18, 11 }, { 30, 1, 21, 17, 28 }))
 		std::cout << str << std::endl;
+
+	for (auto& val : sol_41::solution(5, { 2, 1, 2, 6, 2, 4, 3, 3 }))
+	//for (auto& val : sol_41::solution(4, {4, 4, 4, 4, 4 }))
+		std::cout << val << std::endl;
 }
 
