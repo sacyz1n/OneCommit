@@ -163,6 +163,7 @@
     <ClInclude Include="Genome.h" />
     <ClInclude Include="ILogger.h" />
     <ClInclude Include="lvl2_sol_1.h" />
+    <ClInclude Include="lvl2_sol_2.h" />
     <ClInclude Include="lvl_sol_1.h" />
     <ClInclude Include="lvl_sol_10.h" />
     <ClInclude Include="lvl_sol_11.h" />
