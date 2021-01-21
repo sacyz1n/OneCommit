@@ -22,6 +22,9 @@
     <Filter Include="study\bintree">
       <UniqueIdentifier>{286f9979-472c-48ef-a99f-da17bbf41607}</UniqueIdentifier>
     </Filter>
+    <Filter Include="study\odbc">
+      <UniqueIdentifier>{765439e6-dc07-4090-883e-d44e6e7a4b68}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="algorithm.cpp" />
@@ -36,6 +39,9 @@
     </ClCompile>
     <ClCompile Include="GeneticAlgorithm.cpp">
       <Filter>study\genetic</Filter>
+    </ClCompile>
+    <ClCompile Include="odbcTest.cpp">
+      <Filter>study\odbc</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
