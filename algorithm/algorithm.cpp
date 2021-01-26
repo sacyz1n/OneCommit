@@ -31,6 +31,7 @@
 #include "lvl2_sol_1.h"
 #include "lvl2_sol_3.h"
 #include "lvl2_sol_6.h"
+#include "lvl2_sol_7.h"
 int main()
 {
 	//for (auto number : sol_1::solution({ 1,2,3,4,5,6,7 }))
@@ -109,5 +110,7 @@ int main()
 	lvl2_sol_3::solution("CBD", { "BACDE", "CBADF", "AECB", "BDA" });
 	//lvl2_sol_6::solution({ 2, 1, 3, 2 }, 2);
 	lvl2_sol_6::solution({ 1, 1, 9, 1, 1, 1 }, 0);
+
+	lvl2_sol_7::solution("()))((()");
 }
 
