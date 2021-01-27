@@ -25,6 +25,9 @@
     <Filter Include="study\odbc">
       <UniqueIdentifier>{765439e6-dc07-4090-883e-d44e6e7a4b68}</UniqueIdentifier>
     </Filter>
+    <Filter Include="study\graphicdevice">
+      <UniqueIdentifier>{b00933ac-73f7-416e-ba12-48612462162f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="algorithm.cpp" />
@@ -42,6 +45,9 @@
     </ClCompile>
     <ClCompile Include="odbcTest.cpp">
       <Filter>study\odbc</Filter>
+    </ClCompile>
+    <ClCompile Include="CGraphicDevice.cpp">
+      <Filter>study\graphicdevice</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -206,6 +212,9 @@
     </ClInclude>
     <ClInclude Include="lvl2_sol_7.h">
       <Filter>Level 2</Filter>
+    </ClInclude>
+    <ClInclude Include="CGraphicDevice.h">
+      <Filter>study\graphicdevice</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
