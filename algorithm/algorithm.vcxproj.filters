@@ -28,6 +28,9 @@
     <Filter Include="study\graphicdevice">
       <UniqueIdentifier>{b00933ac-73f7-416e-ba12-48612462162f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="study\shadertest">
+      <UniqueIdentifier>{b3ab2c54-e904-49f3-9212-8bdc6857541a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="algorithm.cpp" />
@@ -48,6 +51,12 @@
     </ClCompile>
     <ClCompile Include="CGraphicDevice.cpp">
       <Filter>study\graphicdevice</Filter>
+    </ClCompile>
+    <ClCompile Include="CColorShader.cpp">
+      <Filter>study\shadertest</Filter>
+    </ClCompile>
+    <ClCompile Include="CShader.cpp">
+      <Filter>study\shadertest</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -216,5 +225,19 @@
     <ClInclude Include="CGraphicDevice.h">
       <Filter>study\graphicdevice</Filter>
     </ClInclude>
+    <ClInclude Include="CColorShader.h">
+      <Filter>study\shadertest</Filter>
+    </ClInclude>
+    <ClInclude Include="CShader.h">
+      <Filter>study\shadertest</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Color.ps">
+      <Filter>study\shadertest</Filter>
+    </None>
+    <None Include="Color.vs">
+      <Filter>study\shadertest</Filter>
+    </None>
   </ItemGroup>
 </Project>

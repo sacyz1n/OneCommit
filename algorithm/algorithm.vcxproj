@@ -152,11 +152,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="algorithm.cpp" />
+    <ClCompile Include="CColorShader.cpp" />
     <ClCompile Include="CConsoleLogger.cpp" />
     <ClCompile Include="CGraphicDevice.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="CShader.cpp" />
     <ClCompile Include="GeneticAlgorithm.cpp" />
     <ClCompile Include="Genome.cpp" />
     <ClCompile Include="ILogger.cpp" />
@@ -168,11 +170,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CColorShader.h" />
     <ClInclude Include="CConsoleLogger.h" />
     <ClInclude Include="CGraphicDevice.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClInclude>
+    <ClInclude Include="CShader.h" />
     <ClInclude Include="GeneticAlgorithm.h" />
     <ClInclude Include="Genome.h" />
     <ClInclude Include="ILogger.h" />
@@ -226,6 +230,10 @@
     <ClInclude Include="lvl_sol_8.h" />
     <ClInclude Include="lvl_sol_9.h" />
     <ClInclude Include="MapInfo.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Color.ps" />
+    <None Include="Color.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
