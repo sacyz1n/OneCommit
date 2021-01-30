@@ -31,6 +31,9 @@
     <Filter Include="study\shadertest">
       <UniqueIdentifier>{b3ab2c54-e904-49f3-9212-8bdc6857541a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="study\buffer">
+      <UniqueIdentifier>{865095bd-0f21-47a3-8360-bd429a379d5f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="algorithm.cpp" />
@@ -57,6 +60,9 @@
     </ClCompile>
     <ClCompile Include="CShader.cpp">
       <Filter>study\shadertest</Filter>
+    </ClCompile>
+    <ClCompile Include="CPacketBuffer.cpp">
+      <Filter>study\buffer</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -230,6 +236,9 @@
     </ClInclude>
     <ClInclude Include="CShader.h">
       <Filter>study\shadertest</Filter>
+    </ClInclude>
+    <ClInclude Include="CPacketBuffer.h">
+      <Filter>study\buffer</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
